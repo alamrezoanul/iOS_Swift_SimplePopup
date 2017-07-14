@@ -67,7 +67,7 @@ class PopupToInputsecretViewController: UIViewController {
         {
             //Validate the secret here
             
-            NSURLConnection.send
+            
             
         }
         

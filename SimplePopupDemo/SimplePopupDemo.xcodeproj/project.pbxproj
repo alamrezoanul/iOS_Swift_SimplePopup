@@ -7,66 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B0B12A41EF990FE00D6F875 /* CommonMethodsObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0B12A31EF990FE00D6F875 /* CommonMethodsObjC.m */; };
-		4B0B12B11EF9A9E600D6F875 /* App.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0B12AF1EF9A9E600D6F875 /* App.storyboard */; };
-		4B304D2C1EFC45B9007AB415 /* SimplePopupDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B304D2B1EFC45B9007AB415 /* SimplePopupDemoAppTests.swift */; };
-		4B304D3A1EFC4614007AB415 /* SimplePopupDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B304D391EFC4614007AB415 /* SimplePopupDemoAppUITests.swift */; };
-		4B304D441EFC6351007AB415 /* CommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B304D421EFC6351007AB415 /* CommonMethods.swift */; };
-		4B304D451EFC6351007AB415 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B304D431EFC6351007AB415 /* Constants.swift */; };
-		4B304D4A1EFC63AD007AB415 /* APINSURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B304D491EFC63AD007AB415 /* APINSURLSession.swift */; };
-		4BA4B4BC1EF8626300A7977A /* SimpleKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA4B4BB1EF8626300A7977A /* SimpleKeychain.framework */; };
-		4BA4B4C01EF8629500A7977A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA4B4BE1EF8629500A7977A /* Assets.xcassets */; };
-		4BA4B4C11EF8629500A7977A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BA4B4BF1EF8629500A7977A /* Info.plist */; };
-		4BA4B4C31EF862E600A7977A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA4B4C21EF862E600A7977A /* Images.xcassets */; };
-		4BA4B4C91EF862FC00A7977A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA4B4C51EF862FC00A7977A /* LaunchScreen.storyboard */; };
-		4BA4B4CF1EF8631C00A7977A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4B4CD1EF8631C00A7977A /* AppDelegate.swift */; };
-		4BA4B4D01EF8631C00A7977A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4B4CE1EF8631C00A7977A /* MainViewController.swift */; };
-		4BA4B4E81EF867EA00A7977A /* PopupToInputsecret.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA4B4E71EF867EA00A7977A /* PopupToInputsecret.storyboard */; };
-		4BA4B4EA1EF8680B00A7977A /* PopupToInputsecretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4B4E91EF8680B00A7977A /* PopupToInputsecretViewController.swift */; };
+		4078212D9270A7147CA29CEA /* Pods_SimplePopupDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C7570EBBD97699AE0ABFF8 /* Pods_SimplePopupDemo.framework */; };
+		4BC291261F19737700324565 /* CommonMethodsObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC290FE1F196F1200324565 /* CommonMethodsObjC.m */; };
+		4BC291271F19738600324565 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC290F71F196F1200324565 /* Constants.swift */; };
+		4BC291281F19738600324565 /* CommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC290FB1F196F1200324565 /* CommonMethods.swift */; };
+		4BC291291F19738600324565 /* PopupToInputsecretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC291011F196F1200324565 /* PopupToInputsecretViewController.swift */; };
+		4BC2912A1F19738600324565 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC291251F19735800324565 /* AppDelegate.swift */; };
+		4BC2912B1F19738600324565 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC291241F19735800324565 /* MainViewController.swift */; };
+		4BC2912C1F19755C00324565 /* PopupToInputsecret.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC291021F196F1200324565 /* PopupToInputsecret.storyboard */; };
+		4BC2912D1F19755C00324565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC291071F196F2100324565 /* LaunchScreen.storyboard */; };
+		4BC2912E1F19755C00324565 /* App.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC2910B1F196F2100324565 /* App.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4B304D2E1EFC45B9007AB415 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B151EE31EF59C31008546E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B151EEA1EF59C31008546E8;
-			remoteInfo = SimplePopupDemoApp;
-		};
-		4B304D3C1EFC4614007AB415 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B151EE31EF59C31008546E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B151EEA1EF59C31008546E8;
-			remoteInfo = SimplePopupDemoApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		4B0B12A11EF990D400D6F875 /* CommonMethodsObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CommonMethodsObjC.h; path = ObjC/CommonMethodsObjC.h; sourceTree = "<group>"; };
-		4B0B12A21EF990FE00D6F875 /* SimplePopupDemoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimplePopupDemoApp-Bridging-Header.h"; sourceTree = "<group>"; };
-		4B0B12A31EF990FE00D6F875 /* CommonMethodsObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonMethodsObjC.m; path = ObjC/CommonMethodsObjC.m; sourceTree = "<group>"; };
-		4B0B12B01EF9A9E600D6F875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/App.storyboard; sourceTree = "<group>"; };
-		4B151EEB1EF59C31008546E8 /* SimplePopupDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePopupDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B304D291EFC45B9007AB415 /* SimplePopupDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePopupDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B304D2B1EFC45B9007AB415 /* SimplePopupDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePopupDemoAppTests.swift; sourceTree = "<group>"; };
-		4B304D2D1EFC45B9007AB415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B304D371EFC4614007AB415 /* SimplePopupDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePopupDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B304D391EFC4614007AB415 /* SimplePopupDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePopupDemoAppUITests.swift; sourceTree = "<group>"; };
-		4B304D3B1EFC4614007AB415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B304D421EFC6351007AB415 /* CommonMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
-		4B304D431EFC6351007AB415 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		4B304D491EFC63AD007AB415 /* APINSURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APINSURLSession.swift; sourceTree = "<group>"; };
-		4BA4B4BB1EF8626300A7977A /* SimpleKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleKeychain.framework; path = Carthage/Build/iOS/SimpleKeychain.framework; sourceTree = "<group>"; };
-		4BA4B4BE1EF8629500A7977A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4BA4B4BF1EF8629500A7977A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BA4B4C21EF862E600A7977A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4BA4B4C61EF862FC00A7977A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4BA4B4CD1EF8631C00A7977A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4BA4B4CE1EF8631C00A7977A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		4BA4B4E61EF863F600A7977A /* SimplePopupDemoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimplePopupDemoApp.entitlements; sourceTree = "<group>"; };
-		4BA4B4E71EF867EA00A7977A /* PopupToInputsecret.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopupToInputsecret.storyboard; sourceTree = "<group>"; };
-		4BA4B4E91EF8680B00A7977A /* PopupToInputsecretViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupToInputsecretViewController.swift; sourceTree = "<group>"; };
+		4B151EEB1EF59C31008546E8 /* SimplePopupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePopupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC290F71F196F1200324565 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4BC290FB1F196F1200324565 /* CommonMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
+		4BC290FC1F196F1200324565 /* SimplePopupDemoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimplePopupDemoApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		4BC290FE1F196F1200324565 /* CommonMethodsObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonMethodsObjC.m; sourceTree = "<group>"; };
+		4BC290FF1F196F1200324565 /* CommonMethodsObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMethodsObjC.h; sourceTree = "<group>"; };
+		4BC291011F196F1200324565 /* PopupToInputsecretViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupToInputsecretViewController.swift; sourceTree = "<group>"; };
+		4BC291021F196F1200324565 /* PopupToInputsecret.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopupToInputsecret.storyboard; sourceTree = "<group>"; };
+		4BC291081F196F2100324565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BC2910C1F196F2100324565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/App.storyboard; sourceTree = "<group>"; };
+		4BC2911A1F196F9A00324565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC2911B1F19700500324565 /* SimplePopupDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimplePopupDemo.entitlements; sourceTree = "<group>"; };
+		4BC291231F1970BA00324565 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4BC291241F19735800324565 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4BC291251F19735800324565 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7C7570EBBD97699AE0ABFF8 /* Pods_SimplePopupDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePopupDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEF59C263D936C0AFF89EFB /* Pods-SimplePopupDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePopupDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimplePopupDemo/Pods-SimplePopupDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F086BC66E9C92F2579545F86 /* Pods-SimplePopupDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePopupDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimplePopupDemo/Pods-SimplePopupDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,253 +45,164 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BA4B4BC1EF8626300A7977A /* SimpleKeychain.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B304D261EFC45B9007AB415 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B304D341EFC4614007AB415 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4078212D9270A7147CA29CEA /* Pods_SimplePopupDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4B0B12A51EF9910E00D6F875 /* ObjC */ = {
-			isa = PBXGroup;
-			children = (
-				4B0B12A11EF990D400D6F875 /* CommonMethodsObjC.h */,
-				4B0B12A31EF990FE00D6F875 /* CommonMethodsObjC.m */,
-				4B0B12A21EF990FE00D6F875 /* SimplePopupDemoApp-Bridging-Header.h */,
-			);
-			name = ObjC;
-			sourceTree = "<group>";
-		};
 		4B151EE21EF59C31008546E8 = {
 			isa = PBXGroup;
 			children = (
-				4BA4B4E61EF863F600A7977A /* SimplePopupDemoApp.entitlements */,
-				4BBF3D581EF7100D00A392C7 /* Dependencies */,
-				4BA4B4B41EF8623200A7977A /* Commons */,
-				4BA4B4CB1EF8631C00A7977A /* Codes */,
-				4BA4B4C41EF862FC00A7977A /* Storyboards */,
-				4BA4B4BD1EF8629500A7977A /* Resources */,
-				4BA4B4DB1EF863BD00A7977A /* Tests */,
+				4BC291231F1970BA00324565 /* README.md */,
+				4BC2911B1F19700500324565 /* SimplePopupDemo.entitlements */,
+				4BC290F31F196F1200324565 /* Commons */,
+				4BC291041F196F2100324565 /* SimplePopupDemoApp */,
 				4B151EEC1EF59C31008546E8 /* Products */,
 				4BBF3D5A1EF7112600A392C7 /* Frameworks */,
+				96931CC38E371D51B68AF72D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		4B151EEC1EF59C31008546E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B151EEB1EF59C31008546E8 /* SimplePopupDemoApp.app */,
-				4B304D291EFC45B9007AB415 /* SimplePopupDemoAppTests.xctest */,
-				4B304D371EFC4614007AB415 /* SimplePopupDemoAppUITests.xctest */,
+				4B151EEB1EF59C31008546E8 /* SimplePopupDemo.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4B304D2A1EFC45B9007AB415 /* SimplePopupDemoAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				4B304D2B1EFC45B9007AB415 /* SimplePopupDemoAppTests.swift */,
-				4B304D2D1EFC45B9007AB415 /* Info.plist */,
-			);
-			path = SimplePopupDemoAppTests;
-			sourceTree = "<group>";
-		};
-		4B304D381EFC4614007AB415 /* SimplePopupDemoAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4B304D391EFC4614007AB415 /* SimplePopupDemoAppUITests.swift */,
-				4B304D3B1EFC4614007AB415 /* Info.plist */,
-			);
-			path = SimplePopupDemoAppUITests;
-			sourceTree = "<group>";
-		};
-		4B304D411EFC6351007AB415 /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				4B304D481EFC63AD007AB415 /* API */,
-				4B304D421EFC6351007AB415 /* CommonMethods.swift */,
-				4B304D431EFC6351007AB415 /* Constants.swift */,
-			);
-			path = Swift;
-			sourceTree = "<group>";
-		};
-		4B304D481EFC63AD007AB415 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				4B304D491EFC63AD007AB415 /* APINSURLSession.swift */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		4BA4B4B41EF8623200A7977A /* Commons */ = {
-			isa = PBXGroup;
-			children = (
-				4BA4B4B51EF8623200A7977A /* Classes */,
-				4BA4B4B81EF8623200A7977A /* DesignObjects */,
-			);
-			path = Commons;
-			sourceTree = SOURCE_ROOT;
-		};
-		4BA4B4B51EF8623200A7977A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4B304D411EFC6351007AB415 /* Swift */,
-				4B0B12A51EF9910E00D6F875 /* ObjC */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		4BA4B4B81EF8623200A7977A /* DesignObjects */ = {
-			isa = PBXGroup;
-			children = (
-				4BA4B4E71EF867EA00A7977A /* PopupToInputsecret.storyboard */,
-				4BA4B4E91EF8680B00A7977A /* PopupToInputsecretViewController.swift */,
-			);
-			path = DesignObjects;
-			sourceTree = "<group>";
-		};
-		4BA4B4BD1EF8629500A7977A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4BA4B4C21EF862E600A7977A /* Images.xcassets */,
-				4BA4B4BE1EF8629500A7977A /* Assets.xcassets */,
-				4BA4B4BF1EF8629500A7977A /* Info.plist */,
-			);
-			name = Resources;
-			path = SimplePopupDemo/SimplePopupDemoApp/Resources;
-			sourceTree = "<group>";
-		};
-		4BA4B4C41EF862FC00A7977A /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				4BA4B4C51EF862FC00A7977A /* LaunchScreen.storyboard */,
-				4B0B12AF1EF9A9E600D6F875 /* App.storyboard */,
-			);
-			name = Storyboards;
-			path = SimplePopupDemo/SimplePopupDemoApp/Storyboards;
-			sourceTree = "<group>";
-		};
-		4BA4B4CB1EF8631C00A7977A /* Codes */ = {
-			isa = PBXGroup;
-			children = (
-				4BA4B4CC1EF8631C00A7977A /* Swift */,
-			);
-			name = Codes;
-			path = SimplePopupDemo/SimplePopupDemoApp/Codes;
-			sourceTree = "<group>";
-		};
-		4BA4B4CC1EF8631C00A7977A /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				4BA4B4CD1EF8631C00A7977A /* AppDelegate.swift */,
-				4BA4B4CE1EF8631C00A7977A /* MainViewController.swift */,
-			);
-			path = Swift;
-			sourceTree = "<group>";
-		};
-		4BA4B4DB1EF863BD00A7977A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				4B304D2A1EFC45B9007AB415 /* SimplePopupDemoAppTests */,
-				4B304D381EFC4614007AB415 /* SimplePopupDemoAppUITests */,
-			);
-			name = Tests;
-			path = SimplePopupDemo/Tests;
-			sourceTree = "<group>";
-		};
-		4BBF3D581EF7100D00A392C7 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				4BBF3D591EF7101A00A392C7 /* 3rdParty */,
-			);
-			path = Dependencies;
-			sourceTree = "<group>";
-		};
-		4BBF3D591EF7101A00A392C7 /* 3rdParty */ = {
-			isa = PBXGroup;
-			children = (
-				4BA4B4BB1EF8626300A7977A /* SimpleKeychain.framework */,
-			);
-			name = 3rdParty;
 			sourceTree = "<group>";
 		};
 		4BBF3D5A1EF7112600A392C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C7C7570EBBD97699AE0ABFF8 /* Pods_SimplePopupDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BC290F31F196F1200324565 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				4BC290F41F196F1200324565 /* Classes */,
+				4BC291001F196F1200324565 /* DesignObjects */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		4BC290F41F196F1200324565 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4BC290F61F196F1200324565 /* Swift */,
+				4BC290FC1F196F1200324565 /* SimplePopupDemoApp-Bridging-Header.h */,
+				4BC290FD1F196F1200324565 /* ObjC */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4BC290F61F196F1200324565 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				4BC290F71F196F1200324565 /* Constants.swift */,
+				4BC290FB1F196F1200324565 /* CommonMethods.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		4BC290FD1F196F1200324565 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				4BC290FE1F196F1200324565 /* CommonMethodsObjC.m */,
+				4BC290FF1F196F1200324565 /* CommonMethodsObjC.h */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		4BC291001F196F1200324565 /* DesignObjects */ = {
+			isa = PBXGroup;
+			children = (
+				4BC291011F196F1200324565 /* PopupToInputsecretViewController.swift */,
+				4BC291021F196F1200324565 /* PopupToInputsecret.storyboard */,
+			);
+			path = DesignObjects;
+			sourceTree = "<group>";
+		};
+		4BC291041F196F2100324565 /* SimplePopupDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				4BC291191F196F9A00324565 /* Supporting Files */,
+				4BC291051F196F2100324565 /* Resources */,
+				4BC291131F196F2100324565 /* Codes */,
+			);
+			path = SimplePopupDemoApp;
+			sourceTree = "<group>";
+		};
+		4BC291051F196F2100324565 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4BC291061F196F2100324565 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4BC291061F196F2100324565 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4BC291071F196F2100324565 /* LaunchScreen.storyboard */,
+				4BC2910B1F196F2100324565 /* App.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4BC291131F196F2100324565 /* Codes */ = {
+			isa = PBXGroup;
+			children = (
+				4BC291251F19735800324565 /* AppDelegate.swift */,
+				4BC291241F19735800324565 /* MainViewController.swift */,
+			);
+			path = Codes;
+			sourceTree = "<group>";
+		};
+		4BC291191F196F9A00324565 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BC2911A1F196F9A00324565 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96931CC38E371D51B68AF72D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF59C263D936C0AFF89EFB /* Pods-SimplePopupDemo.debug.xcconfig */,
+				F086BC66E9C92F2579545F86 /* Pods-SimplePopupDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B151EEA1EF59C31008546E8 /* SimplePopupDemoApp */ = {
+		4B151EEA1EF59C31008546E8 /* SimplePopupDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B151F131EF59C31008546E8 /* Build configuration list for PBXNativeTarget "SimplePopupDemoApp" */;
+			buildConfigurationList = 4B151F131EF59C31008546E8 /* Build configuration list for PBXNativeTarget "SimplePopupDemo" */;
 			buildPhases = (
+				9C40AEDCB84625EB868FE3B9 /* [CP] Check Pods Manifest.lock */,
 				4B151EE71EF59C31008546E8 /* Sources */,
 				4B151EE81EF59C31008546E8 /* Frameworks */,
 				4B151EE91EF59C31008546E8 /* Resources */,
-				4BA4B5071EF8734C00A7977A /* ShellScript */,
+				309E9F01BAC1215FAA6A88FD /* [CP] Embed Pods Frameworks */,
+				D8C03CFD00B19E735A1766B9 /* [CP] Copy Pods Resources */,
+				4BC291301F19790100324565 /* [RS] Run Fabric */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SimplePopupDemoApp;
+			name = SimplePopupDemo;
 			productName = SimplePopupDemo;
-			productReference = 4B151EEB1EF59C31008546E8 /* SimplePopupDemoApp.app */;
+			productReference = 4B151EEB1EF59C31008546E8 /* SimplePopupDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		4B304D281EFC45B9007AB415 /* SimplePopupDemoAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B304D301EFC45B9007AB415 /* Build configuration list for PBXNativeTarget "SimplePopupDemoAppTests" */;
-			buildPhases = (
-				4B304D251EFC45B9007AB415 /* Sources */,
-				4B304D261EFC45B9007AB415 /* Frameworks */,
-				4B304D271EFC45B9007AB415 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B304D2F1EFC45B9007AB415 /* PBXTargetDependency */,
-			);
-			name = SimplePopupDemoAppTests;
-			productName = SimplePopupDemoAppTests;
-			productReference = 4B304D291EFC45B9007AB415 /* SimplePopupDemoAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4B304D361EFC4614007AB415 /* SimplePopupDemoAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B304D3E1EFC4614007AB415 /* Build configuration list for PBXNativeTarget "SimplePopupDemoAppUITests" */;
-			buildPhases = (
-				4B304D331EFC4614007AB415 /* Sources */,
-				4B304D341EFC4614007AB415 /* Frameworks */,
-				4B304D351EFC4614007AB415 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B304D3D1EFC4614007AB415 /* PBXTargetDependency */,
-			);
-			name = SimplePopupDemoAppUITests;
-			productName = SimplePopupDemoAppUITests;
-			productReference = 4B304D371EFC4614007AB415 /* SimplePopupDemoAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -329,29 +211,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Rezoanul Alam Riad";
 				TargetAttributes = {
 					4B151EEA1EF59C31008546E8 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = TM2EQ8HXTG;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
 							};
 						};
-					};
-					4B304D281EFC45B9007AB415 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 4B151EEA1EF59C31008546E8;
-					};
-					4B304D361EFC4614007AB415 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 4B151EEA1EF59C31008546E8;
 					};
 				};
 			};
@@ -368,9 +240,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B151EEA1EF59C31008546E8 /* SimplePopupDemoApp */,
-				4B304D281EFC45B9007AB415 /* SimplePopupDemoAppTests */,
-				4B304D361EFC4614007AB415 /* SimplePopupDemoAppUITests */,
+				4B151EEA1EF59C31008546E8 /* SimplePopupDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -380,45 +250,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BA4B4C31EF862E600A7977A /* Images.xcassets in Resources */,
-				4BA4B4E81EF867EA00A7977A /* PopupToInputsecret.storyboard in Resources */,
-				4B0B12B11EF9A9E600D6F875 /* App.storyboard in Resources */,
-				4BA4B4C91EF862FC00A7977A /* LaunchScreen.storyboard in Resources */,
-				4BA4B4C01EF8629500A7977A /* Assets.xcassets in Resources */,
-				4BA4B4C11EF8629500A7977A /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B304D271EFC45B9007AB415 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B304D351EFC4614007AB415 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4BC2912C1F19755C00324565 /* PopupToInputsecret.storyboard in Resources */,
+				4BC2912D1F19755C00324565 /* LaunchScreen.storyboard in Resources */,
+				4BC2912E1F19755C00324565 /* App.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4BA4B5071EF8734C00A7977A /* ShellScript */ = {
+		309E9F01BAC1215FAA6A88FD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Dependencies/Carthage/Build/iOS/SimpleKeychain.framework",
 			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplePopupDemo/Pods-SimplePopupDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BC291301F19790100324565 /* [RS] Run Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[RS] Run Fabric";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/Fabric/run b03827589b39351ab12f892d60a6175e24893cff 99cedf2ea435c79c2779debb37bae3b999141faba7bb07637419cffdb618d8e2";
+		};
+		9C40AEDCB84625EB868FE3B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8C03CFD00B19E735A1766B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplePopupDemo/Pods-SimplePopupDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -427,62 +325,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BA4B4CF1EF8631C00A7977A /* AppDelegate.swift in Sources */,
-				4BA4B4EA1EF8680B00A7977A /* PopupToInputsecretViewController.swift in Sources */,
-				4BA4B4D01EF8631C00A7977A /* MainViewController.swift in Sources */,
-				4B0B12A41EF990FE00D6F875 /* CommonMethodsObjC.m in Sources */,
-				4B304D441EFC6351007AB415 /* CommonMethods.swift in Sources */,
-				4B304D451EFC6351007AB415 /* Constants.swift in Sources */,
-				4B304D4A1EFC63AD007AB415 /* APINSURLSession.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B304D251EFC45B9007AB415 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B304D2C1EFC45B9007AB415 /* SimplePopupDemoAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B304D331EFC4614007AB415 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B304D3A1EFC4614007AB415 /* SimplePopupDemoAppUITests.swift in Sources */,
+				4BC291271F19738600324565 /* Constants.swift in Sources */,
+				4BC291281F19738600324565 /* CommonMethods.swift in Sources */,
+				4BC291291F19738600324565 /* PopupToInputsecretViewController.swift in Sources */,
+				4BC2912A1F19738600324565 /* AppDelegate.swift in Sources */,
+				4BC2912B1F19738600324565 /* MainViewController.swift in Sources */,
+				4BC291261F19737700324565 /* CommonMethodsObjC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		4B304D2F1EFC45B9007AB415 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4B151EEA1EF59C31008546E8 /* SimplePopupDemoApp */;
-			targetProxy = 4B304D2E1EFC45B9007AB415 /* PBXContainerItemProxy */;
-		};
-		4B304D3D1EFC4614007AB415 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4B151EEA1EF59C31008546E8 /* SimplePopupDemoApp */;
-			targetProxy = 4B304D3C1EFC4614007AB415 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		4B0B12AF1EF9A9E600D6F875 /* App.storyboard */ = {
+		4BC291071F196F2100324565 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4B0B12B01EF9A9E600D6F875 /* Base */,
-			);
-			name = App.storyboard;
-			sourceTree = "<group>";
-		};
-		4BA4B4C51EF862FC00A7977A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BA4B4C61EF862FC00A7977A /* Base */,
+				4BC291081F196F2100324565 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4BC2910B1F196F2100324565 /* App.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BC2910C1F196F2100324565 /* Base */,
+			);
+			name = App.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -498,7 +366,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -506,7 +376,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -549,7 +423,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -557,7 +433,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -585,94 +465,48 @@
 		};
 		4B151F141EF59C31008546E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEF59C263D936C0AFF89EFB /* Pods-SimplePopupDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = SimplePopupDemoApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SimplePopupDemo.entitlements;
 				DEVELOPMENT_TEAM = TM2EQ8HXTG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Dependencies/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/SimplePopupDemo/SimplePopupDemoApp/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SimplePopupDemoApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alamrezoanul.SimplePopupDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Commons/Classes/SimplePopupDemoApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		4B151F151EF59C31008546E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F086BC66E9C92F2579545F86 /* Pods-SimplePopupDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = SimplePopupDemoApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SimplePopupDemo.entitlements;
 				DEVELOPMENT_TEAM = TM2EQ8HXTG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Dependencies/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/SimplePopupDemo/SimplePopupDemoApp/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SimplePopupDemoApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alamrezoanul.SimplePopupDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Commons/Classes/SimplePopupDemoApp-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		4B304D311EFC45B9007AB415 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SimplePopupDemoAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alamrezoanul.SimplePopupDemoAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePopupDemoApp.app/SimplePopupDemoApp";
-			};
-			name = Debug;
-		};
-		4B304D321EFC45B9007AB415 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SimplePopupDemoAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alamrezoanul.SimplePopupDemoAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePopupDemoApp.app/SimplePopupDemoApp";
-			};
-			name = Release;
-		};
-		4B304D3F1EFC4614007AB415 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SimplePopupDemoAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alamrezoanul.SimplePopupDemoAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = SimplePopupDemoApp;
-			};
-			name = Debug;
-		};
-		4B304D401EFC4614007AB415 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SimplePopupDemoAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alamrezoanul.SimplePopupDemoAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = SimplePopupDemoApp;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -688,29 +522,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B151F131EF59C31008546E8 /* Build configuration list for PBXNativeTarget "SimplePopupDemoApp" */ = {
+		4B151F131EF59C31008546E8 /* Build configuration list for PBXNativeTarget "SimplePopupDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B151F141EF59C31008546E8 /* Debug */,
 				4B151F151EF59C31008546E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B304D301EFC45B9007AB415 /* Build configuration list for PBXNativeTarget "SimplePopupDemoAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B304D311EFC45B9007AB415 /* Debug */,
-				4B304D321EFC45B9007AB415 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B304D3E1EFC4614007AB415 /* Build configuration list for PBXNativeTarget "SimplePopupDemoAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B304D3F1EFC4614007AB415 /* Debug */,
-				4B304D401EFC4614007AB415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

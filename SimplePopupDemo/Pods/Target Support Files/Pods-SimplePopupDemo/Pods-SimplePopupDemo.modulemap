@@ -1,0 +1,6 @@
+framework module Pods_SimplePopupDemo {
+  umbrella header "Pods-SimplePopupDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
