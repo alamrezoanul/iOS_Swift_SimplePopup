@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B0B12A41EF990FE00D6F875 /* CommonMethodsObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0B12A31EF990FE00D6F875 /* CommonMethodsObjC.m */; };
+		4B0B12B11EF9A9E600D6F875 /* App.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0B12AF1EF9A9E600D6F875 /* App.storyboard */; };
+		4B304D2C1EFC45B9007AB415 /* SimplePopupDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B304D2B1EFC45B9007AB415 /* SimplePopupDemoAppTests.swift */; };
+		4B304D3A1EFC4614007AB415 /* SimplePopupDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B304D391EFC4614007AB415 /* SimplePopupDemoAppUITests.swift */; };
+		4B304D441EFC6351007AB415 /* CommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B304D421EFC6351007AB415 /* CommonMethods.swift */; };
+		4B304D451EFC6351007AB415 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B304D431EFC6351007AB415 /* Constants.swift */; };
+		4B304D4A1EFC63AD007AB415 /* APINSURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B304D491EFC63AD007AB415 /* APINSURLSession.swift */; };
+		4BA4B4BC1EF8626300A7977A /* SimpleKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA4B4BB1EF8626300A7977A /* SimpleKeychain.framework */; };
+		4BA4B4C01EF8629500A7977A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA4B4BE1EF8629500A7977A /* Assets.xcassets */; };
+		4BA4B4C11EF8629500A7977A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BA4B4BF1EF8629500A7977A /* Info.plist */; };
+		4BA4B4C31EF862E600A7977A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA4B4C21EF862E600A7977A /* Images.xcassets */; };
+		4BA4B4C91EF862FC00A7977A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA4B4C51EF862FC00A7977A /* LaunchScreen.storyboard */; };
+		4BA4B4CF1EF8631C00A7977A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4B4CD1EF8631C00A7977A /* AppDelegate.swift */; };
+		4BA4B4D01EF8631C00A7977A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4B4CE1EF8631C00A7977A /* MainViewController.swift */; };
+		4BA4B4E81EF867EA00A7977A /* PopupToInputsecret.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA4B4E71EF867EA00A7977A /* PopupToInputsecret.storyboard */; };
+		4BA4B4EA1EF8680B00A7977A /* PopupToInputsecretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4B4E91EF8680B00A7977A /* PopupToInputsecretViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B304D2E1EFC45B9007AB415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B151EE31EF59C31008546E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B151EEA1EF59C31008546E8;
+			remoteInfo = SimplePopupDemoApp;
+		};
+		4B304D3C1EFC4614007AB415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B151EE31EF59C31008546E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B151EEA1EF59C31008546E8;
+			remoteInfo = SimplePopupDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B0B12A11EF990D400D6F875 /* CommonMethodsObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CommonMethodsObjC.h; path = ObjC/CommonMethodsObjC.h; sourceTree = "<group>"; };
+		4B0B12A21EF990FE00D6F875 /* SimplePopupDemoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimplePopupDemoApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		4B0B12A31EF990FE00D6F875 /* CommonMethodsObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonMethodsObjC.m; path = ObjC/CommonMethodsObjC.m; sourceTree = "<group>"; };
+		4B0B12B01EF9A9E600D6F875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/App.storyboard; sourceTree = "<group>"; };
+		4B151EEB1EF59C31008546E8 /* SimplePopupDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePopupDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B304D291EFC45B9007AB415 /* SimplePopupDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePopupDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B304D2B1EFC45B9007AB415 /* SimplePopupDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePopupDemoAppTests.swift; sourceTree = "<group>"; };
+		4B304D2D1EFC45B9007AB415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B304D371EFC4614007AB415 /* SimplePopupDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePopupDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B304D391EFC4614007AB415 /* SimplePopupDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePopupDemoAppUITests.swift; sourceTree = "<group>"; };
+		4B304D3B1EFC4614007AB415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B304D421EFC6351007AB415 /* CommonMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
+		4B304D431EFC6351007AB415 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4B304D491EFC63AD007AB415 /* APINSURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APINSURLSession.swift; sourceTree = "<group>"; };
+		4BA4B4BB1EF8626300A7977A /* SimpleKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleKeychain.framework; path = Carthage/Build/iOS/SimpleKeychain.framework; sourceTree = "<group>"; };
+		4BA4B4BE1EF8629500A7977A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BA4B4BF1EF8629500A7977A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA4B4C21EF862E600A7977A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4BA4B4C61EF862FC00A7977A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BA4B4CD1EF8631C00A7977A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BA4B4CE1EF8631C00A7977A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4BA4B4E61EF863F600A7977A /* SimplePopupDemoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimplePopupDemoApp.entitlements; sourceTree = "<group>"; };
+		4BA4B4E71EF867EA00A7977A /* PopupToInputsecret.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopupToInputsecret.storyboard; sourceTree = "<group>"; };
+		4BA4B4E91EF8680B00A7977A /* PopupToInputsecretViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupToInputsecretViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B151EE81EF59C31008546E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA4B4BC1EF8626300A7977A /* SimpleKeychain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B304D261EFC45B9007AB415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B304D341EFC4614007AB415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B0B12A51EF9910E00D6F875 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				4B0B12A11EF990D400D6F875 /* CommonMethodsObjC.h */,
+				4B0B12A31EF990FE00D6F875 /* CommonMethodsObjC.m */,
+				4B0B12A21EF990FE00D6F875 /* SimplePopupDemoApp-Bridging-Header.h */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		4B151EE21EF59C31008546E8 = {
+			isa = PBXGroup;
+			children = (
+				4BA4B4E61EF863F600A7977A /* SimplePopupDemoApp.entitlements */,
+				4BBF3D581EF7100D00A392C7 /* Dependencies */,
+				4BA4B4B41EF8623200A7977A /* Commons */,
+				4BA4B4CB1EF8631C00A7977A /* Codes */,
+				4BA4B4C41EF862FC00A7977A /* Storyboards */,
+				4BA4B4BD1EF8629500A7977A /* Resources */,
+				4BA4B4DB1EF863BD00A7977A /* Tests */,
+				4B151EEC1EF59C31008546E8 /* Products */,
+				4BBF3D5A1EF7112600A392C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B151EEC1EF59C31008546E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B151EEB1EF59C31008546E8 /* SimplePopupDemoApp.app */,
+				4B304D291EFC45B9007AB415 /* SimplePopupDemoAppTests.xctest */,
+				4B304D371EFC4614007AB415 /* SimplePopupDemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B304D2A1EFC45B9007AB415 /* SimplePopupDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B304D2B1EFC45B9007AB415 /* SimplePopupDemoAppTests.swift */,
+				4B304D2D1EFC45B9007AB415 /* Info.plist */,
+			);
+			path = SimplePopupDemoAppTests;
+			sourceTree = "<group>";
+		};
+		4B304D381EFC4614007AB415 /* SimplePopupDemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B304D391EFC4614007AB415 /* SimplePopupDemoAppUITests.swift */,
+				4B304D3B1EFC4614007AB415 /* Info.plist */,
+			);
+			path = SimplePopupDemoAppUITests;
+			sourceTree = "<group>";
+		};
+		4B304D411EFC6351007AB415 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				4B304D481EFC63AD007AB415 /* API */,
+				4B304D421EFC6351007AB415 /* CommonMethods.swift */,
+				4B304D431EFC6351007AB415 /* Constants.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		4B304D481EFC63AD007AB415 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4B304D491EFC63AD007AB415 /* APINSURLSession.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4BA4B4B41EF8623200A7977A /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				4BA4B4B51EF8623200A7977A /* Classes */,
+				4BA4B4B81EF8623200A7977A /* DesignObjects */,
+			);
+			path = Commons;
+			sourceTree = SOURCE_ROOT;
+		};
+		4BA4B4B51EF8623200A7977A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4B304D411EFC6351007AB415 /* Swift */,
+				4B0B12A51EF9910E00D6F875 /* ObjC */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4BA4B4B81EF8623200A7977A /* DesignObjects */ = {
+			isa = PBXGroup;
+			children = (
+				4BA4B4E71EF867EA00A7977A /* PopupToInputsecret.storyboard */,
+				4BA4B4E91EF8680B00A7977A /* PopupToInputsecretViewController.swift */,
+			);
+			path = DesignObjects;
+			sourceTree = "<group>";
+		};
+		4BA4B4BD1EF8629500A7977A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4BA4B4C21EF862E600A7977A /* Images.xcassets */,
+				4BA4B4BE1EF8629500A7977A /* Assets.xcassets */,
+				4BA4B4BF1EF8629500A7977A /* Info.plist */,
+			);
+			name = Resources;
+			path = SimplePopupDemo/SimplePopupDemoApp/Resources;
+			sourceTree = "<group>";
+		};
+		4BA4B4C41EF862FC00A7977A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4BA4B4C51EF862FC00A7977A /* LaunchScreen.storyboard */,
+				4B0B12AF1EF9A9E600D6F875 /* App.storyboard */,
+			);
+			name = Storyboards;
+			path = SimplePopupDemo/SimplePopupDemoApp/Storyboards;
+			sourceTree = "<group>";
+		};
+		4BA4B4CB1EF8631C00A7977A /* Codes */ = {
+			isa = PBXGroup;
+			children = (
+				4BA4B4CC1EF8631C00A7977A /* Swift */,
+			);
+			name = Codes;
+			path = SimplePopupDemo/SimplePopupDemoApp/Codes;
+			sourceTree = "<group>";
+		};
+		4BA4B4CC1EF8631C00A7977A /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				4BA4B4CD1EF8631C00A7977A /* AppDelegate.swift */,
+				4BA4B4CE1EF8631C00A7977A /* MainViewController.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		4BA4B4DB1EF863BD00A7977A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4B304D2A1EFC45B9007AB415 /* SimplePopupDemoAppTests */,
+				4B304D381EFC4614007AB415 /* SimplePopupDemoAppUITests */,
+			);
+			name = Tests;
+			path = SimplePopupDemo/Tests;
+			sourceTree = "<group>";
+		};
+		4BBF3D581EF7100D00A392C7 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				4BBF3D591EF7101A00A392C7 /* 3rdParty */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		4BBF3D591EF7101A00A392C7 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				4BA4B4BB1EF8626300A7977A /* SimpleKeychain.framework */,
+			);
+			name = 3rdParty;
+			sourceTree = "<group>";
+		};
+		4BBF3D5A1EF7112600A392C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B151EEA1EF59C31008546E8 /* SimplePopupDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B151F131EF59C31008546E8 /* Build configuration list for PBXNativeTarget "SimplePopupDemoApp" */;
+			buildPhases = (
+				4B151EE71EF59C31008546E8 /* Sources */,
+				4B151EE81EF59C31008546E8 /* Frameworks */,
+				4B151EE91EF59C31008546E8 /* Resources */,
+				4BA4B5071EF8734C00A7977A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplePopupDemoApp;
+			productName = SimplePopupDemo;
+			productReference = 4B151EEB1EF59C31008546E8 /* SimplePopupDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B304D281EFC45B9007AB415 /* SimplePopupDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B304D301EFC45B9007AB415 /* Build configuration list for PBXNativeTarget "SimplePopupDemoAppTests" */;
+			buildPhases = (
+				4B304D251EFC45B9007AB415 /* Sources */,
+				4B304D261EFC45B9007AB415 /* Frameworks */,
+				4B304D271EFC45B9007AB415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B304D2F1EFC45B9007AB415 /* PBXTargetDependency */,
+			);
+			name = SimplePopupDemoAppTests;
+			productName = SimplePopupDemoAppTests;
+			productReference = 4B304D291EFC45B9007AB415 /* SimplePopupDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B304D361EFC4614007AB415 /* SimplePopupDemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B304D3E1EFC4614007AB415 /* Build configuration list for PBXNativeTarget "SimplePopupDemoAppUITests" */;
+			buildPhases = (
+				4B304D331EFC4614007AB415 /* Sources */,
+				4B304D341EFC4614007AB415 /* Frameworks */,
+				4B304D351EFC4614007AB415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B304D3D1EFC4614007AB415 /* PBXTargetDependency */,
+			);
+			name = SimplePopupDemoAppUITests;
+			productName = SimplePopupDemoAppUITests;
+			productReference = 4B304D371EFC4614007AB415 /* SimplePopupDemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B151EE31EF59C31008546E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rezoanul Alam Riad";
+				TargetAttributes = {
+					4B151EEA1EF59C31008546E8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TM2EQ8HXTG;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					4B304D281EFC45B9007AB415 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B151EEA1EF59C31008546E8;
+					};
+					4B304D361EFC4614007AB415 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B151EEA1EF59C31008546E8;
+					};
+				};
+			};
+			buildConfigurationList = 4B151EE61EF59C31008546E8 /* Build configuration list for PBXProject "SimplePopupDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B151EE21EF59C31008546E8;
+			productRefGroup = 4B151EEC1EF59C31008546E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B151EEA1EF59C31008546E8 /* SimplePopupDemoApp */,
+				4B304D281EFC45B9007AB415 /* SimplePopupDemoAppTests */,
+				4B304D361EFC4614007AB415 /* SimplePopupDemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B151EE91EF59C31008546E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA4B4C31EF862E600A7977A /* Images.xcassets in Resources */,
+				4BA4B4E81EF867EA00A7977A /* PopupToInputsecret.storyboard in Resources */,
+				4B0B12B11EF9A9E600D6F875 /* App.storyboard in Resources */,
+				4BA4B4C91EF862FC00A7977A /* LaunchScreen.storyboard in Resources */,
+				4BA4B4C01EF8629500A7977A /* Assets.xcassets in Resources */,
+				4BA4B4C11EF8629500A7977A /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B304D271EFC45B9007AB415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B304D351EFC4614007AB415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BA4B5071EF8734C00A7977A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Dependencies/Carthage/Build/iOS/SimpleKeychain.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B151EE71EF59C31008546E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA4B4CF1EF8631C00A7977A /* AppDelegate.swift in Sources */,
+				4BA4B4EA1EF8680B00A7977A /* PopupToInputsecretViewController.swift in Sources */,
+				4BA4B4D01EF8631C00A7977A /* MainViewController.swift in Sources */,
+				4B0B12A41EF990FE00D6F875 /* CommonMethodsObjC.m in Sources */,
+				4B304D441EFC6351007AB415 /* CommonMethods.swift in Sources */,
+				4B304D451EFC6351007AB415 /* Constants.swift in Sources */,
+				4B304D4A1EFC63AD007AB415 /* APINSURLSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B304D251EFC45B9007AB415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B304D2C1EFC45B9007AB415 /* SimplePopupDemoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B304D331EFC4614007AB415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B304D3A1EFC4614007AB415 /* SimplePopupDemoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B304D2F1EFC45B9007AB415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B151EEA1EF59C31008546E8 /* SimplePopupDemoApp */;
+			targetProxy = 4B304D2E1EFC45B9007AB415 /* PBXContainerItemProxy */;
+		};
+		4B304D3D1EFC4614007AB415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B151EEA1EF59C31008546E8 /* SimplePopupDemoApp */;
+			targetProxy = 4B304D3C1EFC4614007AB415 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B0B12AF1EF9A9E600D6F875 /* App.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B0B12B01EF9A9E600D6F875 /* Base */,
+			);
+			name = App.storyboard;
+			sourceTree = "<group>";
+		};
+		4BA4B4C51EF862FC00A7977A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BA4B4C61EF862FC00A7977A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B151F111EF59C31008546E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B151F121EF59C31008546E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B151F141EF59C31008546E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SimplePopupDemoApp.entitlements;
+				DEVELOPMENT_TEAM = TM2EQ8HXTG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dependencies/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SimplePopupDemo/SimplePopupDemoApp/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alamrezoanul.SimplePopupDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Commons/Classes/SimplePopupDemoApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B151F151EF59C31008546E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SimplePopupDemoApp.entitlements;
+				DEVELOPMENT_TEAM = TM2EQ8HXTG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dependencies/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SimplePopupDemo/SimplePopupDemoApp/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alamrezoanul.SimplePopupDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Commons/Classes/SimplePopupDemoApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4B304D311EFC45B9007AB415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimplePopupDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alamrezoanul.SimplePopupDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePopupDemoApp.app/SimplePopupDemoApp";
+			};
+			name = Debug;
+		};
+		4B304D321EFC45B9007AB415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimplePopupDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alamrezoanul.SimplePopupDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePopupDemoApp.app/SimplePopupDemoApp";
+			};
+			name = Release;
+		};
+		4B304D3F1EFC4614007AB415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimplePopupDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alamrezoanul.SimplePopupDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimplePopupDemoApp;
+			};
+			name = Debug;
+		};
+		4B304D401EFC4614007AB415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimplePopupDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alamrezoanul.SimplePopupDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimplePopupDemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B151EE61EF59C31008546E8 /* Build configuration list for PBXProject "SimplePopupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B151F111EF59C31008546E8 /* Debug */,
+				4B151F121EF59C31008546E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B151F131EF59C31008546E8 /* Build configuration list for PBXNativeTarget "SimplePopupDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B151F141EF59C31008546E8 /* Debug */,
+				4B151F151EF59C31008546E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B304D301EFC45B9007AB415 /* Build configuration list for PBXNativeTarget "SimplePopupDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B304D311EFC45B9007AB415 /* Debug */,
+				4B304D321EFC45B9007AB415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B304D3E1EFC4614007AB415 /* Build configuration list for PBXNativeTarget "SimplePopupDemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B304D3F1EFC4614007AB415 /* Debug */,
+				4B304D401EFC4614007AB415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B151EE31EF59C31008546E8 /* Project object */;
+}
