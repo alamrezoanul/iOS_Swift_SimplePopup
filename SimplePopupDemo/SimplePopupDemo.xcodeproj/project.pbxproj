@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B119BDB1F198355008CAA0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B151EEB1EF59C31008546E8 /* SimplePopupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePopupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC290F71F196F1200324565 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4BC290FB1F196F1200324565 /* CommonMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
@@ -140,6 +141,7 @@
 		4BC291051F196F2100324565 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4B119BDB1F198355008CAA0F /* Assets.xcassets */,
 				4BC291061F196F2100324565 /* Storyboards */,
 			);
 			path = Resources;
@@ -467,7 +469,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CAEF59C263D936C0AFF89EFB /* Pods-SimplePopupDemo.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SimplePopupDemo.entitlements;
@@ -491,7 +493,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F086BC66E9C92F2579545F86 /* Pods-SimplePopupDemo.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SimplePopupDemo.entitlements;
